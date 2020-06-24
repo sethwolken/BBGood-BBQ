@@ -9,7 +9,7 @@
 <style>
     #first-fold {
         width: 100%;
-        height: 800px;
+        height: 200px;
         zoom: 1;
         z-index: 1;
         min-width: 324px;
@@ -25,7 +25,7 @@
 
 
     <section id="first-fold">
-        <h1> Welcome to Our hunting page</h1>
+        <h1> Today we are going to explore how messed up this whole piece of shit is</h1>
 
 
     </section>
