@@ -9,7 +9,7 @@
 <style>
     #first-fold {
         width: 100%;
-        height: 200px;
+        height: 800px;
         zoom: 1;
         z-index: 1;
         min-width: 324px;
