@@ -31,13 +31,6 @@ body {
     align-items: center;
 }
 
-.title>h1 {
-    color: #fff;
-    font-size: 5rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 .fog {
     position: relative;
     height: 100vh;
