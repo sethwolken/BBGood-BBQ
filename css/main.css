@@ -103,7 +103,8 @@ body {
 /* Change the color of links on hover */
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #e5d80e;
+    ;
     color: black;
 }
 
