@@ -111,6 +111,7 @@ body {
 /* Add a color to the active/current link */
 
 .topnav a.active {
+    background-color: #f5a733;
     color: white;
 }
 
