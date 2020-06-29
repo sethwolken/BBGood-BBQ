@@ -83,6 +83,7 @@ body {
 
 .topnav {
     position: relative;
+    background-color: #333;
     overflow: hidden;
 }
 
