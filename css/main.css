@@ -118,7 +118,7 @@ body {
 
 /* Centered section inside the top navigation */
 
-.topnav-centered a {
+.topnav-centered img {
     float: none;
     position: absolute;
     top: 50%;
