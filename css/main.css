@@ -155,6 +155,7 @@ body {
     height: 200px;
     background-color: #f0ead6;
     padding-top: 0px;
+    top: 0px;
 }
 
 #first-section h1 {
