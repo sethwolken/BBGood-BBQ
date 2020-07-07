@@ -154,6 +154,7 @@ body {
     width: 100%;
     height: 200px;
     background-color: #f0ead6;
+    padding-top: 0px;
 }
 
 #first-section h1 {
