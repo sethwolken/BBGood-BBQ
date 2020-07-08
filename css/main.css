@@ -150,6 +150,10 @@ body {
     }
 }
 
+#home{
+    width: 1200px;
+}
+
 #home .tile,
 .feature-tile {
     position: relative;
