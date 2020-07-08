@@ -150,15 +150,16 @@ body {
     }
 }
 
-#home{
+#home {
     width: 1200px;
+    margin: auto;
 }
 
 #home .tile,
 .feature-tile {
     position: relative;
     float: left;
-    width: 30%;
+    width: 20%;
     min-height: 272px;
     margin-right: 5%;
     overflow: hidden;
