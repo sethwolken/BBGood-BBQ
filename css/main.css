@@ -231,11 +231,6 @@ body {
     margin-top: 1px;
 }
 
-#home .tile:nth-child(3n),
-.feature-tile:nth-child(3n) {
-    margin-right: 30px;
-}
-
 #home .tile:nth-of-type(3n+1),
 .feature-tile:nth-of-type(3n+1) {
     clear: left;
