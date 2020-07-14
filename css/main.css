@@ -161,10 +161,9 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   width: 30%;
-  height: auto;
   position: relative;
   float: left;
-  margin-left: 8%;
+  margin: 8%;
   clear: both;
 }
 
