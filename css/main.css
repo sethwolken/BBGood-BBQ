@@ -150,6 +150,11 @@ body {
     }
 }
 
+#home {
+    background-color: blue;
+    padding-top: 50%;
+    margin: auto;
+}
 
 
 #home .tile,
