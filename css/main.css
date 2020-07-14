@@ -159,11 +159,12 @@ body {
 .feature-tile {
     position: relative;
     float: left;
-    width: 20%;
+    width: 30%;
     min-height: 272px;
     margin-right: 5%;
     overflow: hidden;
     border-bottom: 3px solid #ddd;
+    background-color: #f0ead6;
 }
 
 #home .tile img,
