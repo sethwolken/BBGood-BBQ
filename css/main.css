@@ -160,10 +160,11 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  width: 50%;
+  width: 30%;
   height: auto;
   position: relative;
   float: left;
+  margin-left: 8%;
   clear: both;
 }
 
@@ -187,6 +188,7 @@ img {vertical-align: middle;}
 
 #mySlides{
     width: 100%;
+    height: auto;
 }
 
 /* Position the "next button" to the right */
