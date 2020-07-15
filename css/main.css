@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+#home-page{
+    background-color: #DFD4D6;
+}
 .absolute-bg {
     position: absolute;
     top: 0;
