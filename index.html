@@ -54,37 +54,124 @@
 <body>
     <section id=home-page>
    
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <body>
     
-    <div class="w3-content w3-section">
-      
-    
-      <img class="mySlides w3-animate-fading" src="./img/menu1.jpg" style="width:100%">
-      <img class="mySlides w3-animate-fading" src="./img/menu2.jpg" style="width:100%">
-      <img class="mySlides w3-animate-fading" src="./img/menu3.jpg" style="width:100%">
-      <img class="mySlides w3-animate-fading" src="./img/menu4.jpg" style="width:100%">
-      <img class="mySlides w3-animate-fading" src="./img/menu5.jpg" style="width:100%">
-      <img class="mySlides w3-animate-fading" src="./img/menu6.jpg" style="width:100%">
-
-    </div>
-    
-    <script>
-    var myIndex = 0;
-    carousel();
-    
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}    
-      x[myIndex-1].style.display = "block";  
-      setTimeout(carousel, 9000);    
-    }
-    </script>
+        <div class="slideshow-container">
+            <div class="slideshow-inner">
+            
+            <div class="mySlides fade">
+                <img  src='./img/menu1.jpg' style='width: 100%;' alt="value"/>
+              </div>
+              <div class="mySlides fade">
+                <img  src='./img/menu2.jpg' style='width: 100%;' alt="value"/>
+              </div>
+              <div class="mySlides fade">
+                <img  src='./img/menu3.jpg' style='width: 100%;' alt="value"/>
+              </div>
+              <div class="mySlides fade">
+                <img  src='./img/menu4.jpg' style='width: 100%;' alt="value"/>
+              </div>
+              <div class="mySlides fade">
+                <img  src='./img/menu5.jpg' style='width: 100%;' alt="value"/>
+              </div>
+              <div class="mySlides fade">
+                <img  src='./img/menu6.jpg' style='width: 100%;' alt="value"/>
+              </div>
+            
+            
+            
+            
+            
+            
+            
+              </div>
+              
+            
+            
+              <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+              <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+            </div>
+            <br/>
+            <div style=" float: left; clear: left; margin-left: 25%;">
+              <span class="dot" onclick='currentSlide(1)'></span>
+              <span class="dot" onclick='currentSlide(2)'></span>
+              <span class="dot" onclick='currentSlide(3)'></span>
+              <span class="dot" onclick='currentSlide(4)'></span>
+              <span class="dot" onclick='currentSlide(5)'></span>
+              <span class="dot" onclick='currentSlide(6)'></span>
+              <span class="dot" onclick='currentSlide(7)'></span>
+              <span class="dot" onclick='currentSlide(8)'></span>
+              <span class="dot" onclick='currentSlide(9)'></span>
+            
+            
+            
+            
+            </div>
+            
+            </div>
+            
+            <script>var slideIndex = 1;
+            
+            var myTimer;
+            
+            var slideshowContainer;
+            
+            window.addEventListener("load",function() {
+                showSlides(slideIndex);
+                myTimer = setInterval(function(){plusSlides(1)}, 10000);
+              
+                //COMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+                slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
+              
+                //UNCOMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+                // slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
+              
+                slideshowContainer.addEventListener('mouseenter', pause)
+                slideshowContainer.addEventListener('mouseleave', resume)
+            })
+            
+            // NEXT AND PREVIOUS CONTROL
+            function plusSlides(n){
+              clearInterval(myTimer);
+              if (n < 0){
+                showSlides(slideIndex -= 1);
+              } else {
+               showSlides(slideIndex += 1); 
+              }
+              
+              //COMMENT OUT THE LINES BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+              
+              if (n === -1){
+                myTimer = setInterval(function(){plusSlides(n + 2)}, 10000);
+              } else {
+                myTimer = setInterval(function(){plusSlides(n + 1)}, 10000);
+              }
+            }
+            
+            //Controls the current slide and resets interval if needed
+            function currentSlide(n){
+              clearInterval(myTimer);
+              myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n){
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+            
+            </script>
 
 
 
