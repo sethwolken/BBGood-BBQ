@@ -11,7 +11,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: auto;
+    height: 75%;
     width: 100%;
     z-index: 0;
     background: url("../img/fire-background.jpg");
