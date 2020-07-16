@@ -158,10 +158,9 @@ body {
 
 
 .slideshow-container {
-    width: 50%;
+    width: 100%;
     height: 100%;
     position: relative;
-    margin-left: 8%;
 }
 
 .mySlides {
@@ -179,7 +178,7 @@ body {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 30px;
     transition: .6s ease;
