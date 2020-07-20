@@ -286,5 +286,11 @@ body {
 
 #about-text{
     text-align: center;
+    width: 400px;
 }
 
+#about-text h1{
+    font-family: "Alegreya SC";
+     
+      font-size: 45px; 
+}
