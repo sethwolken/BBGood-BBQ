@@ -283,5 +283,11 @@ body {
     
 }
 
+#about-text{
+    width: 400px;
+    float: right;
+    clear: both;
+    
+}
 
 
