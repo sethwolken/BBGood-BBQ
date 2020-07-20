@@ -280,8 +280,8 @@ body {
     width: 25%;
     float: left;
     margin-left: 25%;
-    top: 50%;
-    bottom: 50%;
+    padding-top: 50%;
+    padding-bottom: 50%;
     
 }
 
