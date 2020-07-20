@@ -277,8 +277,8 @@ body {
 
 #about img{
     width: 40%;
+    float: left;
     
-    clear: both;
     margin-left: 8%;
     
     
@@ -292,8 +292,8 @@ body {
 
 #about p{
     width: 300px;
-    
-    clear: both;
+    float: right;
+
 
 }
 
