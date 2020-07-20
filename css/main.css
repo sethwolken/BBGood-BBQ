@@ -284,18 +284,7 @@ body {
     
 }
 
-#about h1{
-    font-family: "Alegreya SC";
-     text-align: center;
-      font-size: 45px; 
-}
-
-#about p{
-    width: 300px;
-    float: right;
+#about-text{
     text-align: center;
-
-
 }
-
 
