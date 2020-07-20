@@ -128,6 +128,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.topnav-centered img a.active{
+    background-color: transparent;
+}
+
 
 /* Right-aligned section inside the top navigation */
 
