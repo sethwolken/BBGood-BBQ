@@ -292,7 +292,7 @@ body {
 
 #about p{
     width: 300px;
-    text-align: center;
+    float: right;
     clear: both;
 
 }
