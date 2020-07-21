@@ -87,6 +87,8 @@ body {
     position: relative;
     background-color: #333;
     overflow: hidden;
+    font-family: "Alegreya SC";
+
 }
 
 
@@ -335,7 +337,7 @@ height: 200px;
 footer p{
     color: white;
     font-family: "Alegreya SC";
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
     font-weight: bold;
 }
