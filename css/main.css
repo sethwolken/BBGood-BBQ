@@ -338,8 +338,10 @@ footer p{
     color: white;
     font-family: "Alegreya SC";
     font-size: 20px;
+    margin: 0;
     position: absolute;
-    left: 50%;
-    margin-left: -50px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     
 }
