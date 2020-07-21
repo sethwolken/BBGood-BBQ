@@ -293,6 +293,12 @@ body {
     
 }
 
+#about-text p{
+    font-family: "Alegreya SC";
+    font-size: 15px;
+    line-height: 1.5;  
+}
+
 #about-text h1{
     font-family: "Alegreya SC";
      
