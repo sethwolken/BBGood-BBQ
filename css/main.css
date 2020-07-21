@@ -340,5 +340,5 @@ footer p{
     font-size: 20px;
     text-align: left;
     text-align: center;
-    top: 50%;
+    margin-top: 50%;
 }
