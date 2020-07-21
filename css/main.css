@@ -336,10 +336,8 @@ height: 200px;
 
 
 #footer-text{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  text-align: center;
+    margin: auto;
+    margin-top: 50%;
 }
 
 
@@ -347,6 +345,6 @@ height: 200px;
     color: white;
     font-family: "Alegreya SC";
     font-size: 20px;
-    
+    text-align: center;
     
 }
