@@ -334,7 +334,8 @@ height: 200px;
 
 }
 
-footer p{
+
+#footer-text{
     color: white;
     font-family: "Alegreya SC";
     font-size: 20px;
