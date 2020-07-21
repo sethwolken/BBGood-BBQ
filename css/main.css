@@ -336,11 +336,10 @@ height: 200px;
 
 
 #footer-text{
-    width: 500px;
-    margin: auto;
-    position: absolute;
-    
-        
+    display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
 }
 
 
