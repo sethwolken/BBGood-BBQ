@@ -251,10 +251,7 @@ body {
 /* SLIDESHOW MEDIA*/
 
 @media only screen and (max-width: 1084px) {
-	#fb-page{
-		display: none;
-		
-	}
+	
 	.slideshow-container{
 		width: 93%;
 			margin: auto;
@@ -303,4 +300,27 @@ body {
     font-family: "Alegreya SC";
      
       font-size: 45px; 
+}
+
+@media only screen and (max-width: 1084px) {
+	
+	#about img{
+		width: 93%;
+			margin: auto;
+			
+		}
+		
+		
+
+		
+        #about-text{
+			font-size: 11px;
+			padding: 5px;
+		}
+		
+		#about-text h1{
+            font-size: 30px;
+            text-align: center;
+		}
+	
 }
