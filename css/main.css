@@ -358,9 +358,9 @@ footer{
     padding: 5px;
     font-size: 10px;
     width: 15px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    margin: auto;
+    margin: 5px 2px;
   }
   
   .fa:hover {
