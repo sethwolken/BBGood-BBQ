@@ -353,7 +353,7 @@ footer{
 
 /* Footer Social Media Icons*/
 #footer-icons{
-    margin: auto;
+    text-align: center;
 }
 
 .fa {
