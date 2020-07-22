@@ -352,7 +352,9 @@ footer{
 }
 
 /* Footer Social Media Icons*/
-
+#footer-icons{
+    margin: auto;
+}
 
 .fa {
     padding: 5px;
