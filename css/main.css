@@ -2,11 +2,20 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #e0ddd6;
+    
     
     
 }
-
+ #container{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: auto;
+    background-color: #e0ddd6;
+ }
 .absolute-bg {
     position: absolute;
     top: 0;
