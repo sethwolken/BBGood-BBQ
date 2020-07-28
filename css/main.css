@@ -341,11 +341,12 @@ body {
 
 
 
-.footern.footer-text{
+.footer .footer-text{
     color: white;
     font-family: "Alegreya SC";
     font-size: 20px;
     margin: auto;
+    
     
 }
 
