@@ -334,14 +334,14 @@ body {
     background-color: #333;
     position: absolute;
     width: 100%;
-    height: 150px;
+    height: 200px;
     color: white;
     
 }
 
 
 
-#footer-text p{
+.footer-text p{
     color: white;
     font-family: "Alegreya SC";
     font-size: 20px;
