@@ -401,18 +401,20 @@ body {
 /* ----- CATERING ----- */
 
   #catering{
-      height: 600px;
+      height: 100%;
+      width: 100%;
+      background-color: blue;
   }
 #catering .tile,
 .feature-tile {
     position: relative;
     float: left;
-    width: 30%;
+    width: 20%;
     min-height: 272px;
     margin-right: 5%;
     overflow: hidden;
     border-bottom: 3px solid #ddd;
-    background-color: blue;
+   
 }
 
 
