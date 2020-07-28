@@ -400,7 +400,9 @@ body {
 
 /* ----- CATERING ----- */
 
-  
+  #catering{
+      height: 600px;
+  }
 #catering .tile,
 .feature-tile {
     position: relative;
@@ -413,11 +415,6 @@ body {
     background-color: blue;
 }
 
-#catering .tile img,
-.feature-tile img {
-    display: inline-block;
-    width: 100%;
-}
 
 #catering .tile a,
 .feature-tile a {
