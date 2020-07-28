@@ -333,11 +333,13 @@ body {
 #footer{
     background-color: #333;
     height: 200px;
+    position: relative;
+    bottom: 1px;
 }
 
 #footer-text{
     margin: auto;
-    padding-top: 50%;
+    
   
 }
 
