@@ -339,7 +339,7 @@ body {
 	
 }
 
-footer{
+#footer{
     background-color: #333;
    
 
@@ -353,8 +353,7 @@ footer{
 #footer-text{
    
     margin: auto;
-   
-    
+  
 }
 
 
