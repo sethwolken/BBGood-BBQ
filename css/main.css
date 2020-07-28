@@ -339,7 +339,8 @@ body {
 
 #footer-text{
     margin: auto;
-    
+    position: relative; 
+    bottom: 15px;
     
   
 }
