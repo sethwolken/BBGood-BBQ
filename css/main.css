@@ -3,16 +3,10 @@ body {
     margin: 0;
     padding: 0;
     
-    
+    background-color: #e0ddd6;
     
 }
- #container{
-    position: relative;
-    box-sizing: border-box;
-    width: 100%;
-    overflow: auto;
-    background-color: #e0ddd6;
- }
+
 .absolute-bg {
     position: absolute;
     top: 0;
