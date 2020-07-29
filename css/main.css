@@ -9,10 +9,10 @@ body {
 body {
     display: flex;
   flex-direction: column;
+  background-color: #e0ddd6;
 }
 
 #container{
-    background-color: #e0ddd6;
     flex: 1 0 auto;
 }
 .absolute-bg {
