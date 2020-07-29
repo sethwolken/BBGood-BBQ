@@ -6,14 +6,14 @@ body {
     margin: 0;
 }
 
+body {
+    display: flex;
+  flex-direction: column;
+}
 
 #container{
     background-color: #e0ddd6;
-    min-height: 100%;
-
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
+    flex: 1 0 auto;
 }
 .absolute-bg {
     position: absolute;
@@ -448,7 +448,7 @@ body {
 
 .footer{
     background-color: #333;
-    height: 50px;
+    flex-shrink: 0;
     
 }
 
