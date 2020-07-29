@@ -337,7 +337,7 @@ body {
 /* ----- CATERING ----- */
 
   #catering{
-      
+    background-color: #512F2E; 
       
   }
 #catering .tile,
@@ -349,7 +349,7 @@ body {
     margin-right: 5%;
     overflow: hidden;
     border-bottom: 3px solid #ddd;
-    background-color: #512F2E;
+    
    
 }
 
