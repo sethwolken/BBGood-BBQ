@@ -8,6 +8,7 @@ body {
 
 #container{
     height: 100%;
+    width: 100%;
     background-color: #e0ddd6;
     margin-bottom: -200px;
 }
