@@ -11,6 +11,7 @@ body {
     width: 100%;
     background-color: #e0ddd6;
     margin-bottom: -200px;
+    margin: 0 auto -200px;
 }
 .absolute-bg {
     position: absolute;
@@ -407,8 +408,7 @@ body {
 /* ----- CATERING ----- */
 
   #catering{
-      height: 100%;
-      width: 100%;
+      
       background-color: blue;
   }
 #catering .tile,
