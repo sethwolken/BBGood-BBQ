@@ -345,8 +345,8 @@ body {
 .feature-tile {
     position: relative;
     float: left;
-    width: 30%;
-    min-height: 400px;
+    width: 15%;
+    min-height: 300px;
     margin-right: 5%;
     overflow: hidden;
     border-bottom: 3px solid #ddd;
