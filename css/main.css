@@ -18,12 +18,11 @@ body {
     flex: 1 0 auto;
     background-color: #e0ddd6;
     position: relative;
-    box-sizing: border-box;
+    
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
-    overflow: auto;
+    
     z-index: -1;
 }
 .absolute-bg {
@@ -32,7 +31,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%; 
-    z-index: 0;
+    z-index: 1;
     background: url("../img/fire-background.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
