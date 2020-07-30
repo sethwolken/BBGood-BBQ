@@ -17,8 +17,13 @@ body {
 #container{
     flex: 1 0 auto;
     background-color: #e0ddd6;
-    max-width: 1400px;
-    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: auto;
 }
 .absolute-bg {
     position: absolute;
