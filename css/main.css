@@ -24,6 +24,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     overflow: auto;
+    z-index: -1;
 }
 .absolute-bg {
     position: absolute;
