@@ -18,6 +18,7 @@ body {
     flex: 1 0 auto;
     background-color: #e0ddd6;
     max-width: 1400px;
+    margin: auto;
 }
 .absolute-bg {
     position: absolute;
