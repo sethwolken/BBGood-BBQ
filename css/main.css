@@ -351,6 +351,7 @@ body {
     overflow: hidden;
     border-bottom: 3px solid #ddd;
     background-color: #7c3431; 
+    opacity: 0.5;
     
    
 }
