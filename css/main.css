@@ -10,11 +10,14 @@ body {
 body {
     display: flex;
   flex-direction: column;
-  background-color: #e0ddd6;
+  background-color: #333;
+  
 }
 
 #container{
     flex: 1 0 auto;
+    background-color: #e0ddd6;
+    max-width: 1400px;
 }
 .absolute-bg {
     position: absolute;
@@ -350,7 +353,7 @@ body {
     margin-right: 5%;
     overflow: hidden;
     border-bottom: 3px solid #ddd;
-    background-color: #7c3431; 
+    
     background-color:rgba(0, 0, 0, 0.5);
     
    
