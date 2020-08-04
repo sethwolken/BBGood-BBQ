@@ -17,14 +17,15 @@ body {
 #container{
     flex: 1 0 auto;
     background-color: #e0ddd6;
-    
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     
     
 }
-.absolute-bg {
+
+
+.fog{
     position: absolute;
     top: 0;
     left: 0;
@@ -35,7 +36,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    
 }
 
 .title {
