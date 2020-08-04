@@ -24,6 +24,7 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     overflow: auto;
+    margin-top: 1px;
   
 }
 .absolute-bg {
@@ -37,7 +38,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    padding-bottom: 1px;
+    
     
     
 }
