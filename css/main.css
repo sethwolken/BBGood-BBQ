@@ -31,8 +31,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100% !important;
-    
+    width: 100%;
     background: url("../img/fire-background.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
@@ -40,6 +39,20 @@ body {
     overflow: hidden;
 }
 
+.fog{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../img/fire-background.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
 .title {
     position: absolute;
     top: 0;
