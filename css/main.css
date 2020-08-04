@@ -39,7 +39,7 @@ body {
     overflow: hidden;
 }
 
-.fog{
+#fog{
 
     background-color: blue;
     width: 100%;
