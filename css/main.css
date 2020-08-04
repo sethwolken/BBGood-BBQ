@@ -16,7 +16,7 @@ body {
 
 #container{
     flex: 1 0 auto;
-    background-color: #e0ddd6;
+    
     position: relative;
     box-sizing: border-box;
     width: 100%;
@@ -24,6 +24,7 @@ body {
     margin: 0 auto;
     z-index: -1;
     overflow: auto;
+    background: url("../img/fire-background.jpg");
     
 }
 .absolute-bg {
