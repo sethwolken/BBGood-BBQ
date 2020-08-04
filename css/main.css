@@ -14,7 +14,18 @@ body {
   
 }
 
-
+#container{
+    flex: 1 0 auto;
+    background-color: #e0ddd6;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    z-index: -1;
+    overflow: auto;
+    
+}
 .absolute-bg {
     position: absolute;
     top: 0;
