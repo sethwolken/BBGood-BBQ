@@ -24,7 +24,7 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     overflow: auto;
-  bottom: 0;
+    margin-top: 50%;
 }
 .absolute-bg {
     position: absolute;
