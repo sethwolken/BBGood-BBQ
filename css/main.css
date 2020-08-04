@@ -22,17 +22,17 @@ body {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    
-    overflow: auto;
     z-index: -1;
+    overflow: auto;
+    
 }
 .absolute-bg {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%; 
-    z-index: 1;
+    width: 100% !important;
+    
     background: url("../img/fire-background.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
