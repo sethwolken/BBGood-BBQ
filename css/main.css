@@ -33,10 +33,10 @@ body {
     height: 100%;
     width: 100%;
     background: url("../img/fire-background.jpg");
-    background-position: 50%;
+    background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    
     z-index: 1;
 }
 
