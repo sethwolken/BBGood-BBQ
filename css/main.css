@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
     z-index: -1;
     overflow: auto;
-    height: auto;
+    
     
 }
 .absolute-bg {
@@ -38,6 +38,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-color: blue;
     
 }
 
