@@ -18,7 +18,7 @@ body {
 #container{
     flex: 1 0 auto;
     background-color: #e0ddd6;
-    position: relative;
+    
     box-sizing: border-box;
     width: 100%;
     max-width: 1300px;
