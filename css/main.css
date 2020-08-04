@@ -24,7 +24,7 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     overflow: auto;
-    margin-top: 1px;
+    margin-bottom: 100%;
   
 }
 .absolute-bg {
