@@ -24,6 +24,7 @@ body {
     margin: 0 auto;
     z-index: -1;
     overflow: auto;
+    height: 25%;
     
     
 }
