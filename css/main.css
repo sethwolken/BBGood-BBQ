@@ -24,18 +24,14 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     overflow: auto;
-    margin-top: 44%;
+    
 }
-.absolute-bg {
+.absolute-bg img{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background: url("../img/fire-background.jpg");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
     overflow: hidden;
     
     
@@ -53,6 +49,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 
 .title img{
