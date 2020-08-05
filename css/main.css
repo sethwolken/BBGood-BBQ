@@ -27,7 +27,7 @@ flex: 1 0 auto;
     height: 50%;
     width: 50%;
     overflow: hidden;
-    z-index: 2;
+    z-index: -1;
     
     
     
