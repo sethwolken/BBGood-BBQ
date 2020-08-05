@@ -21,10 +21,7 @@ body {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    
-   
-   
-    
+padding-top: 500px; 
 }
 .absolute-bg img {
     position: absolute;
@@ -34,7 +31,6 @@ body {
     width: 100%;
     overflow: hidden;
     z-index: -1;  
-    margin-bottom: 10px;
 }
 
 .title {
