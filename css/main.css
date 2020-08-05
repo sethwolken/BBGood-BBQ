@@ -13,7 +13,7 @@ body {
     display: flex;
   flex-direction: column;
   background-color: #333;
- 
+  height: 10000px;
   
 }
 
@@ -22,7 +22,7 @@ body {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    position: absolute;
+   
    
     
 }
