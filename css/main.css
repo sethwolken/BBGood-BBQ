@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    min-height: calc(100vh - 70px);
+    
   background-color: #333;
   
   
@@ -21,6 +21,7 @@ body {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    min-height: calc(100vh - 70px);
 
 }
 .absolute-bg img {
