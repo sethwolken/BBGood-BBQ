@@ -1,30 +1,7 @@
 html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li,
-img,
-header,
-nav,
-section,
-footer,
-div,
-iframe {
+body {
     margin: 0;
     padding: 0;
-	
-}
-
-
-
-html,
-body {
     height: 100%;
 
 }
@@ -46,11 +23,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     min-height: 100%;
-
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  
-    
 
 }
 .absolute-bg img {
