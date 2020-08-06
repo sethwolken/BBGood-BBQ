@@ -16,19 +16,7 @@ body {
   
 }
 
-#container{
-    background-color: #e0ddd6;
-    position: relative;
-    box-sizing: border-box;
-    width: 100%;
-	height: 100%;
-	max-width: 1300px;
-    margin: 0 auto;
-    
-    overflow: auto;
-	
 
-}
 .absolute-bg {
     position: absolute;
     top: 0;
