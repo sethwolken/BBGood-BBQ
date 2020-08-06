@@ -21,12 +21,11 @@ body {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-
     min-height: 100%;
 
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -200px;
+  margin-bottom: -100px;
     
 
 }
@@ -322,7 +321,7 @@ body {
 
 .footer{
     background-color: #333;
-    height: 200px;
+    height: 100px;
     
 }
 
