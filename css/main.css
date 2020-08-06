@@ -16,6 +16,14 @@ body {
   
 }
 
+#container{
+    background-color: #e0ddd6;
+    min-height:100%;
+    position:relative;
+    width: 100%;
+    max-width: 1300px;
+}
+
 
 .absolute-bg {
     position: absolute;
