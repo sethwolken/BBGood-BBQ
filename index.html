@@ -1,22 +1,106 @@
 <!DOCTYPE html>
-
 <html>
- <head>
+<head>
     <title>BBGood BBQ</title>
 
     <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="./css/main.css">
+    
     <script src="./js/main.js"> </script>
- </head>
+<head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
 
+html, body{
+    height: 100%; 
+}
+
+#container{
+    min-height: 100%;
+
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: blue;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+
+#footer .footer-text{
+    color: white;
+    font-family: "Alegreya SC";
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+/* Footer Social Media Icons*/
+#footer-icons{
+    text-align: center;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+
+</style>
 <body>
- <div id="page-container">
-   <div id="content-wrap">
 
+<div id="container">
+    <div id="main">
 
-   <header>
+    <header>
 
 
     <div class="topnav">
@@ -37,11 +121,10 @@
         </div>
 
     </div>
-</header> 
+</header>
 
-<body>
 
-  <section class="fog">
+ <section class="fog">
     <div class="absolute-bg"></div>
     <div class="fog-container">
       <div class="fog-img fog-img-first"></div>
@@ -52,15 +135,9 @@
       <img src="./img/bbq-logo.PNG" alt="STUPID LOGO" />
   </div>
   </section>
-  
-  
-    
+
 
   
-    
-  
-    <div id="container">
-
 
     <h1 style="font-family:'Alegreya SC'; text-align: center; font-size: 45px;">Check out or BBGood-BBQ Specialty Items! </h1> 
 
@@ -87,9 +164,12 @@
     </section>
     </div>
 
-    <footer id="footer">
-   
-      <div class="footer-text">
+    </div>
+</div>
+
+<footer id="footer">
+
+<div class="footer-text">
       <p>
         Phone: 555-555-5555 | Adress: 123 Vintage Street, Nowhere AZ 
       </p>
@@ -104,16 +184,8 @@
       <a href="#" class="fa fa-instagram"></a>
       <a href="#" class="fa fa-snapchat-ghost"></a>
     </div>
-     
-     </footer>
- 
-  </div>  <!-- Used for container -->
 
+</footer>
 
-     
-   </div><!--  div for all other page content -->
-   
- </div>
 </body>
-
 </html>
