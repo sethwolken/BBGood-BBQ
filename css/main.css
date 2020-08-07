@@ -18,6 +18,12 @@ html, body{
     
 }
 
+#inside-container{
+    max-width: 1300px;
+    background-color: blue;
+    width: 100%;
+}
+
 
   
 .absolute-bg {
