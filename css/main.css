@@ -88,6 +88,7 @@ body {
     background-color: #333;
     overflow: hidden;
     font-family: "Alegreya SC";
+    z-index: 4;
 
 }
 
