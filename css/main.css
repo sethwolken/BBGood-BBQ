@@ -94,7 +94,7 @@ body {
   }
   
   .fog-img-first {
-    background: url("../img/fog-1.png");
+   
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
@@ -102,7 +102,7 @@ body {
   }
   
   .fog-img-second {
-    background: url("../img/fog-2.png");
+    
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
@@ -366,7 +366,7 @@ body {
 
 
 #footer {
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
     height: 2.5rem; 
