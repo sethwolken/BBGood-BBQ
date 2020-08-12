@@ -362,7 +362,9 @@ width: 400px;
 }
 
 #about img{
-    width: 58%;
+    width: 400px;
+    float: left;
+    
     
 }
 
