@@ -358,14 +358,15 @@ padding-top: 25px;
  .about-text{
 float: right;
 width: 400px;
+clear: both;
 
 }
 
 .about img{
-    width: 400px;
+    width: 600px;
     float: left;
     clear: both;
-    
+    margin-right: 8%;
     
 }
 
