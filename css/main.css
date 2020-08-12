@@ -356,17 +356,17 @@ padding-top: 25px;
 
 }
  .about-text{
-float: right;
-margin-right: 8%;
+float: left;
+
 width: 400px;
-clear: both;
+
 
 }
 
 .about img{
     width: 600px;
+   
     float: left;
-    clear: both;
     margin-left: 8%;
     
 }
