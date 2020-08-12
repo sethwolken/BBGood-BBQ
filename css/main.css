@@ -350,7 +350,7 @@ html, body{
 .about{
 padding-top: 50px;
 overflow: auto;
-width: 600px;
+width: 100%;
 padding-top: 25px;
 
 
@@ -364,6 +364,7 @@ width: 400px;
 .about img{
     width: 400px;
     float: left;
+    clear: both;
     
     
 }
