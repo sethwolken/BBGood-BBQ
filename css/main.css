@@ -350,6 +350,9 @@ html, body{
 #about{
 padding-top: 50px;
 overflow: auto;
+width: 600px;
+padding-top: 25px;
+
 
 }
  #about-text{
