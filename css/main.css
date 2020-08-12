@@ -347,7 +347,7 @@ html, body{
 }
 
 
-#about{
+.about{
 padding-top: 50px;
 overflow: auto;
 width: 600px;
@@ -355,13 +355,13 @@ padding-top: 25px;
 
 
 }
- #about-text{
+ .about-text{
 float: right;
 width: 400px;
 
 }
 
-#about img{
+.about img{
     width: 400px;
     float: left;
     
