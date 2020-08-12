@@ -357,6 +357,7 @@ padding-top: 25px;
 }
  .about-text{
 float: right;
+margin-right: 25%;
 width: 400px;
 clear: both;
 
@@ -366,7 +367,7 @@ clear: both;
     width: 600px;
     float: left;
     clear: both;
-    margin-right: 8%;
+    margin-left: 8%;
     
 }
 
