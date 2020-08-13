@@ -243,6 +243,10 @@ html, body{
 
 /* ----- CATERING ----- */
 
+#catering{
+    margin: auto;
+    
+}
 #catering .tile,
 .feature-tile {
     position: relative;
