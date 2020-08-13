@@ -244,8 +244,7 @@ html, body{
 /* ----- CATERING ----- */
 
 #catering{
-    margin-left: 50%;
-    margin-right: 50%;
+    text-align: center;
     width: 1200px;
 }
 #catering .tile,
