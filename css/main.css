@@ -245,7 +245,7 @@ html, body{
 
 #catering{
     margin: auto;
-    
+    width: 1200px;
 }
 #catering .tile,
 .feature-tile {
