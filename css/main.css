@@ -265,7 +265,7 @@ html, body{
 .feature-tile img {
     display: inline-block;
     width: 90%;
-    text-align: center;
+    margin: auto;
 }
 
 
