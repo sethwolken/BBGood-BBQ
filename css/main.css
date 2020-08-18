@@ -264,7 +264,8 @@ html, body{
 #catering .tile img,
 .feature-tile img {
     display: inline-block;
-    width: 100%;
+    width: 98%;
+    margin: auto;
 }
 
 
