@@ -244,7 +244,7 @@ html, body{
 /* ----- CATERING ----- */
 
 #catering{
-    text-align: center;
+    
     width: 1200px;
 }
 #catering .tile,
@@ -305,7 +305,7 @@ html, body{
 .feature-tile h3 {
     font-size: 16px;
     margin: 8px 0;
-    text-align: left;
+    text-align: center;
     padding: 0 5px;
 }
 
