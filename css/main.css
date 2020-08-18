@@ -250,7 +250,7 @@ html, body{
 #catering .tile,
 .feature-tile {
     position: relative;
-    margin: auto;
+    margin: left;
     width: 25%;
     min-height: 300px;
     margin-right: 5%;
