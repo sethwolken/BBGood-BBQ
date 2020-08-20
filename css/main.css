@@ -263,7 +263,7 @@ html, body{
 
 #catering .tile img,
 .feature-tile img {
-    display: inline-block;
+    
     width: 90%;
     margin: auto;
     text-align: center;
